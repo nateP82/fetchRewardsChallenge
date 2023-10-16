@@ -1,0 +1,2 @@
+# ignore node modules for selenium
+node_modules
