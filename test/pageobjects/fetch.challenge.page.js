@@ -59,6 +59,10 @@ class FetchChallengePage {
         return $("#weigh");
     }
 
+    // weight results selector
+    get weightResults() {
+        return $('[class="game-info"]');
+    }
     /**
      * function to enter even numbers into the left grid
      */
@@ -94,6 +98,7 @@ class FetchChallengePage {
     async clickWeigh() {
         await this.weighButton.waitForClickable();
         await this.weighButton.click();
+        await this.weightResults.waitForDisplayed();
     }
 
 }
