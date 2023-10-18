@@ -54,6 +54,11 @@ class FetchChallengePage {
         return $('#coin_0');
     }
 
+    // reset button selector
+    get resetButton() {
+        return $("#reset");
+    }
+
     // weight button selector
     get weighButton() {
         return $("#weigh");
