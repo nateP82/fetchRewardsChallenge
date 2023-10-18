@@ -111,6 +111,13 @@ class FetchChallengePage {
         await this.weightResults.waitForDisplayed();
     }
 
+    /**
+     * method to find the bar with the least weight
+     */
+    async compareNumbers() {
+        
+    }
+
 }
 
 module.exports = new FetchChallengePage();
