@@ -68,6 +68,11 @@ class FetchChallengePage {
     get weightResults() {
         return $('[class="game-info"]');
     }
+
+    // result selector
+    get scaleResult() {
+        return $('#reset');
+    }
     /**
      * function to enter even numbers into the left grid
      */

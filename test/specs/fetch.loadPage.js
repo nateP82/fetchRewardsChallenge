@@ -17,6 +17,7 @@ describe('Load fetch challenge page', () => {
         await FetchChallengePage.enterEvenCoins(0,2,4,6,8);
         await FetchChallengePage.enterOddCoins(1,3,5,7);
         await FetchChallengePage.clickWeigh();
+        await FetchChallengePage.scaleResult.waitForExist();
     })
 
 })
